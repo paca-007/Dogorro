@@ -1,0 +1,11 @@
+﻿E:\GA5th4Q_Project\Shoebill\5_Project\PreyEngine\Shader\DPass2.hlsl(32,17-34): warning X3206: implicit truncation of vector type
+E:\GA5th4Q_Project\Shoebill\5_Project\PreyEngine\Shader\DPass2.hlsl(73,31-51): warning X3206: 'dot': implicit truncation of vector type
+E:\GA5th4Q_Project\Shoebill\5_Project\PreyEngine\Shader\DPass2.hlsl(79,24-49): warning X3206: 'reflect': implicit truncation of vector type
+  
+  compilation object save succeeded; see E:\GA5th4Q_Project\Shoebill\5_Project\PreyEngine\Shader\compiled\DPass2.cso
+  D3DGraphics.vcxproj -> E:\GA5th4Q_Project\Shoebill\5_Project\PreyEngine\x64\Debug\D3DGraphics.lib
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.

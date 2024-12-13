@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2067870f-7aeb-495f-bb4d-12fb18174fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{bc783b55-bd17-43b0-8bd0-1dbd4eb88998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color">
+      <UniqueIdentifier>{7dbea27b-5a96-4afe-a7ef-3623dfbeab3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Writer">
+      <UniqueIdentifier>{bbbcd0d6-414d-4b48-b85d-41d8304130ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{d603e31c-8d7e-4c96-b01e-65051adb2c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{3dc7ed7d-f45f-4ca5-9363-6594c809bf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{b16c405c-5559-4051-8c1c-615b202f8404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{7c6bcaf1-c797-4bb8-a38d-565d68fbfeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Interface">
+      <UniqueIdentifier>{97d6b46e-c173-4602-84f6-8773c0b51236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Deferred">
+      <UniqueIdentifier>{acd71da0-530a-4705-8119-07d2b3155ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\UI">
+      <UniqueIdentifier>{7dc11287-70b7-454b-acfc-fc483900c09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{e95cc373-f5e0-43ba-bcc1-5d29c4480bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\Interface">
+      <UniqueIdentifier>{3c7b6454-ea53-42c9-9c16-1fa89725fc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugObject">
+      <UniqueIdentifier>{4f8cc874-86ba-42be-8d7b-a86f0e7d940a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugObject\Axes">
+      <UniqueIdentifier>{e69df720-dc58-44a0-aade-384a6ecee280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugObject\Coordinate">
+      <UniqueIdentifier>{17a56afb-30e5-4cce-a08c-36a4b6c94d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugObject\Box">
+      <UniqueIdentifier>{d3f91a28-202c-4fe6-8920-e53df36ac2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Interface">
+      <UniqueIdentifier>{91a3257c-53db-4e31-80a4-f477ad0ca91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh\UIMesh">
+      <UniqueIdentifier>{6e4a47ad-f3ae-42af-a290-f87104c3ae5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Deferred">
+      <UniqueIdentifier>{29a41782-9745-437b-be29-bc561b33b726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\UI">
+      <UniqueIdentifier>{e785bb4c-40b7-4684-929e-b6a1a9ce4328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pixel">
+      <UniqueIdentifier>{e1089ce9-e1b7-4f96-bbd1-6572afcd4bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Vertex">
+      <UniqueIdentifier>{f3334694-34e6-45fc-a99a-901f9707a374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Forward">
+      <UniqueIdentifier>{f4b92eab-53ec-420e-8798-25a43567252b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Forward">
+      <UniqueIdentifier>{c0752005-eec2-4e2f-b00d-2f75422179fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp">
+      <UniqueIdentifier>{65deb5d4-c22f-4d99-bb31-1a40289e95bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Data">
+      <UniqueIdentifier>{cfd7465c-3ad0-4390-a2b8-42766f51e4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Loader">
+      <UniqueIdentifier>{7a104f9a-7885-4c20-980a-60b72711d41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\converter">
+      <UniqueIdentifier>{e85a0c87-ec2b-4ee2-a700-c69c6b17d6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Utils">
+      <UniqueIdentifier>{7c2092f7-1f14-4197-a441-9585653dff70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Data\Mesh">
+      <UniqueIdentifier>{9c01044b-c5b1-4d45-aee1-4951efa2a8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Data\Bone">
+      <UniqueIdentifier>{6ac6c53a-977b-4007-9164-b9813dc36904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Data\AObject">
+      <UniqueIdentifier>{2c4ed4f8-3b1a-4143-ac88-6d60d6521f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Data\Animation">
+      <UniqueIdentifier>{401b452e-be3e-4320-8e79-5ddaf8f1b7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp\Data\Material">
+      <UniqueIdentifier>{fadf16c7-1e85-4d79-b69f-7c214092fec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\PostProcessing">
+      <UniqueIdentifier>{10a6e8bd-5240-4098-81a8-079c0e06badd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostProcessing">
+      <UniqueIdentifier>{8d2b3d85-83c1-4710-af6a-9e92cdde3039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostProcessing\Outline">
+      <UniqueIdentifier>{762db973-9ba1-43d9-8432-0f035f99f732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostProcessing\Pixelate">
+      <UniqueIdentifier>{7187b6ca-183f-4b6e-8936-c5c0b6474d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Background">
+      <UniqueIdentifier>{5a332c29-a8f5-4f50-89b0-b82185f475ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Background">
+      <UniqueIdentifier>{6efac7e1-6c86-45ca-9291-418cb93b1ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostProcessing\Flash">
+      <UniqueIdentifier>{064fb05e-3fb1-4682-929f-89ea3c38ba20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTKFont.cpp">
+      <Filter>Writer</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderer.cpp">
+      <Filter>Renderer\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ICamera.cpp">
+      <Filter>Camera\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphicsEngine.cpp">
+      <Filter>Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Axes.cpp">
+      <Filter>DebugObject\Axes</Filter>
+    </ClCompile>
+    <ClCompile Include="LineObject.cpp">
+      <Filter>DebugObject\Coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredRenderer.cpp">
+      <Filter>Renderer\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>Renderer\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UObject.cpp">
+      <Filter>Mesh\UIMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardRenderer.cpp">
+      <Filter>Renderer\Forward</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpLoader.cpp">
+      <Filter>Assimp\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Converter.cpp">
+      <Filter>Assimp\converter</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Assimp\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Assimp\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Assimp\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AMesh.cpp">
+      <Filter>Assimp\Data\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ABone.cpp">
+      <Filter>Assimp\Data\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="AAnimation.cpp">
+      <Filter>Assimp\Data\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AMaterial.cpp">
+      <Filter>Assimp\Data\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="AObject.cpp">
+      <Filter>Assimp\Data\AObject</Filter>
+    </ClCompile>
+    <ClCompile Include="inputLayerDecs.cpp">
+      <Filter>Assimp\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRenderer.cpp">
+      <Filter>Renderer\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundRenderer.cpp">
+      <Filter>Renderer\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ComResourceManager.cpp" />
+    <ClCompile Include="AAnimator.cpp">
+      <Filter>Assimp\Data\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoader.cpp">
+      <Filter>Assimp\converter</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpType.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vertex.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Color</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTKFont.h">
+      <Filter>Writer</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEFile.h" />
+    <ClInclude Include="pipeline.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Renderer\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Camera\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphicsEngine.h">
+      <Filter>Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Axes.h">
+      <Filter>DebugObject\Axes</Filter>
+    </ClInclude>
+    <ClInclude Include="LineObject.h">
+      <Filter>DebugObject\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredRenderer.h">
+      <Filter>Renderer\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>Renderer\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UObject.h">
+      <Filter>Mesh\UIMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardRenderer.h">
+      <Filter>Renderer\Forward</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpData.h">
+      <Filter>Assimp\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpLoader.h">
+      <Filter>Assimp\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h">
+      <Filter>Assimp\converter</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpType.h">
+      <Filter>Assimp\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Assimp\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Assimp\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Assimp\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Assimp\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexType.h">
+      <Filter>Assimp\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AMesh.h">
+      <Filter>Assimp\Data\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ABone.h">
+      <Filter>Assimp\Data\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="AAnimation.h">
+      <Filter>Assimp\Data\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AMaterial.h">
+      <Filter>Assimp\Data\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="AObject.h">
+      <Filter>Assimp\Data\AObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PostRenderer.h">
+      <Filter>Renderer\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundRenderer.h">
+      <Filter>Renderer\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ComResourceManager.h" />
+    <ClInclude Include="AAnimator.h">
+      <Filter>Assimp\Data\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoader.h">
+      <Filter>Assimp\converter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shader\LightHelper.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass1.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2Bitangent.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2Depth.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2Normal.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2rou.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2Tangent.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2Textuer.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\DPass2VS.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="UIPixelShader.hlsl">
+      <Filter>Shader\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="UIVertexShader.hlsl">
+      <Filter>Shader\UI</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\PixelShader.hlsl">
+      <Filter>Shader\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\PixelShader2.hlsl">
+      <Filter>Shader\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\PixelShader3.hlsl">
+      <Filter>Shader\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\VertexShader.hlsl">
+      <Filter>Shader\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\VertexShader2.hlsl">
+      <Filter>Shader\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\VertexShader3.hlsl">
+      <Filter>Shader\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="ForwardPixelShader.hlsl">
+      <Filter>Shader\Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="FPass2.hlsl">
+      <Filter>Shader\Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="FPass2VS.hlsl">
+      <Filter>Shader\Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="ForwardVertexShader.hlsl">
+      <Filter>Shader\Forward</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\AssimpVS.hlsl">
+      <Filter>Shader\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\AssimpPSPass1.hlsl">
+      <Filter>Shader\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="OutlinePixelShader.hlsl">
+      <Filter>Shader\PostProcessing\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="Outline2Pass.hlsl">
+      <Filter>Shader\PostProcessing\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="OutlineVertexShader.hlsl">
+      <Filter>Shader\PostProcessing\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelatePixelShader.hlsl">
+      <Filter>Shader\PostProcessing\Pixelate</Filter>
+    </FxCompile>
+    <FxCompile Include="DPass3.hlsl">
+      <Filter>Shader\Deferred</Filter>
+    </FxCompile>
+    <FxCompile Include="OutlineBlurY.hlsl">
+      <Filter>Shader\PostProcessing\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="OutlineBlurX.hlsl">
+      <Filter>Shader\PostProcessing\Outline</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shader\AssimpVSNoneBone.hlsl">
+      <Filter>Shader\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="FinalPixelShader.hlsl" />
+    <FxCompile Include="FinalVertexShader.hlsl" />
+    <FxCompile Include="BackgroundVS.hlsl">
+      <Filter>Shader\Background</Filter>
+    </FxCompile>
+    <FxCompile Include="BackgroundPS.hlsl">
+      <Filter>Shader\Background</Filter>
+    </FxCompile>
+    <FxCompile Include="FlashPS.hlsl">
+      <Filter>Shader\PostProcessing\Flash</Filter>
+    </FxCompile>
+    <FxCompile Include="UIAniVertexShader.hlsl" />
+  </ItemGroup>
+</Project>

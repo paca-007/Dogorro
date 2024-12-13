@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="AssimpLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexType.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpData.h">
+      <Filter>AssimpData</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpType.h">
+      <Filter>asType</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{ca5b34eb-32e6-433c-bef6-2cfc9c238054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{6636a357-5ad2-4754-a958-0f688dab7dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssimpData">
+      <UniqueIdentifier>{fc16726d-3f78-4b33-b974-ee2c3fd183fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asType">
+      <UniqueIdentifier>{205b2a18-aa9f-4c3c-9b31-48462f05756b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Converter">
+      <UniqueIdentifier>{0dd8f658-03b2-4208-a7a4-2c99a81b6a27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssimpLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Converter.cpp" />
+  </ItemGroup>
+</Project>
